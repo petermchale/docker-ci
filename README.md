@@ -1,5 +1,6 @@
 
 ![example workflow](https://github.com/petermchale/docker-ci/actions/workflows/docker_hub.yml/badge.svg)
+![example workflow](https://github.com/petermchale/docker-ci/actions/workflows/github_registry.yml/badge.svg)
 
 
 # CI to Docker Hub and Github Registry
