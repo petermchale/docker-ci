@@ -39,6 +39,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
+          # docker image must be all lowercase
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/docker-ci:latest
 
       - name: Image digest
