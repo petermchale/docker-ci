@@ -1,4 +1,7 @@
 
+![example workflow](https://github.com/petermchale/docker-ci/actions/workflows/docker_hub.yml/badge.svg)
+
+
 # CI to Docker Hub and Github Registry
 
 GitHub Actions that build the image defined by the Dockerfile 
