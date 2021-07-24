@@ -1,11 +1,12 @@
 
-# CI to Docker Hub
+# CI to Docker Hub and Github Registry
 
-A GitHub Action that builds the image defined by the Dockerfile 
-and pushes it to Docker Hub 
-may be found at `.github/workflows/main.yml`. 
+GitHub Actions that build the image defined by the Dockerfile 
+and push them to Docker Hub and Github Registry
+may be found in the `.github/workflows` directory. 
 
-The logs associated with running the workflow may be found under the "Actions" tab in the GitHub repo. 
+The logs associated with running the workflows may be found under the "Actions" tab in the GitHub repo. 
 
-Once the workflow has executed successfully, one may then run the built image in a Docker Container via: `docker run -p80:80 petermchale/docker-ci`
+Once the workflow have executed successfully, one may then run the built images in a Docker Container via `docker run -p80:80 petermchale/docker-ci` and pull the Github Registry image via `docker pull ghcr.io/petermchale/docker-ci:latest`. 
+
 
